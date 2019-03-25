@@ -24,6 +24,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="tensquare_comment" target="1.8" />
+      <module name="tensquare_config" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,6 +33,7 @@
       <module name="tensquare_base" options="-parameters" />
       <module name="tensquare_comment" options="-parameters" />
       <module name="tensquare_common" options="-parameters" />
+      <module name="tensquare_config" options="-parameters" />
       <module name="tensquare_eureka" options="-parameters" />
       <module name="tensquare_friend" options="-parameters" />
       <module name="tensquare_gathering" options="-parameters" />
