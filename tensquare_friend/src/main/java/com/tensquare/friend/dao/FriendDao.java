@@ -23,11 +23,11 @@ public interface FriendDao extends JpaRepository<Friend,String> {
      * 更新为互相喜欢
      * @param userid
      * @param friendid
-     * @param islike
+     * @param like
      */
     @Modifying
-    @Query("update Friend f set f.islike=?3 where f.userid=?1 and f.friendid=?2")
-    public void updateLike(String userid,String friendid,String islike);
+    @Query("update Friend f set f.like=?3 where f.userid=?1 and f.friendid=?2")
+    public void updateLike(String userid,String friendid,String like);
 
 
     /**

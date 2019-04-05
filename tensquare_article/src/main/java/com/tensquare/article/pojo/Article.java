@@ -16,8 +16,6 @@ public class Article implements Serializable{
 	@Id
 	private String id;//ID
 
-
-	
 	private String columnid;//专栏ID
 	private String userid;//用户ID
 	private String title;//标题

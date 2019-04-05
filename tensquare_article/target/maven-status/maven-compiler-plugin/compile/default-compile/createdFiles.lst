@@ -1,6 +1,0 @@
-com\tensquare\article\controller\CommentController.class
-com\tensquare\article\pojo\Comment.class
-com\tensquare\article\ApplicationConfig.class
-com\tensquare\article\filter\JwtFilter.class
-com\tensquare\article\service\CommentService.class
-com\tensquare\article\dao\CommentDao.class

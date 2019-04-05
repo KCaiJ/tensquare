@@ -15,9 +15,6 @@ public class Column implements Serializable{
 
 	@Id
 	private String id;//ID
-
-
-	
 	private String name;//专栏名称
 	private String summary;//专栏简介
 	private String userid;//用户ID

@@ -9,6 +9,7 @@
         <module name="tensquare_article" />
         <module name="tensquare_base" />
         <module name="tensquare_common" />
+        <module name="tensquare_config" />
         <module name="tensquare_eureka" />
         <module name="tensquare_friend" />
         <module name="tensquare_gathering" />
@@ -24,7 +25,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="tensquare_comment" target="1.8" />
-      <module name="tensquare_config" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
